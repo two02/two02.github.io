@@ -82,10 +82,13 @@ body {
   
   @keyframes pulse {
     0% {
-      background-color: #001F3F;
+      opacity:0;
+    }
+    50% {
+      opacity:100;
     }
     100% {
-      background-color: #FF4136;
+      opacity:0;
     }
   }
   
