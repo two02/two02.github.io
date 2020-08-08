@@ -69,8 +69,8 @@ body {
 
   /* Animation */
   p.slogonp {
-    animation: animated-text 4s steps(22,end) 1s 1 normal both,
-               animated-cursor 600ms steps(22,end) infinite;
+    animation: animated-text 4s steps(17,end) 1s 1 normal both,
+               animated-cursor 600ms steps(17,end) infinite;
   }
 
   .element {
