@@ -159,6 +159,10 @@ body {
   h1,h2,h3,h4,h5,h6{
   font-family: 'Ubuntu', sans-serif;
 }
+div {
+  width:auto;
+  margin: auto;
+}
 
 div.grid {
   width:500px;
