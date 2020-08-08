@@ -123,6 +123,10 @@ body {
     width: 100%;
     background-color: #414141;
     color: white;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
  }
 
  .logof {
