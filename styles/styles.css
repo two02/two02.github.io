@@ -24,13 +24,13 @@ body {
   }
   h1.logo {
     color: #6b89fd;
-    font-size: 75px;
+    font-size: 7.5vw;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logo {
     color: #222222;
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
@@ -38,20 +38,20 @@ body {
   h1.logof {
     color: #6b89fd
     ;
-    font-size: 30px;
+    font-size: 3.0vw;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logof {
     color: #F5F5F5;
-    font-size: 10px;
+    font-size: 1.0vw;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
 
   .slogon {
-    font-size: 15px;
+    font-size: 1.5vw;
     text-align: center;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -59,11 +59,11 @@ body {
   }
 
   p.slogonp {
-    border-right: solid 3px rgba(0,255,0,.75);
+    border-right: solid 0.3vw rgba(0,255,0,.75);
     white-space: nowrap;
     overflow: hidden;    
     font-family: 'Ubuntu', sans-serif;  
-    font-size: 28px;
+    font-size: 2.8vw;
     color: rgba(0, 0, 0, 0.7);
     margin: 0 auto;
   }
@@ -78,7 +78,7 @@ body {
   
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 400px;}
+    to{width: 40vw;}
   }
   
   /* cursor animations */
@@ -105,7 +105,7 @@ body {
     display: block;
     color: #757575;
     text-align: center;
-    padding: 25px 16px;
+    padding: 2.5vw 1.6vw;
     text-decoration: none;
   }
   
@@ -128,10 +128,10 @@ body {
 
  .logof {
   text-align: center;
-  padding-top: 30px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  padding-top: 3vw;
+  padding-right: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
   animation: fadeInAnimation ease 1s; 
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
@@ -142,11 +142,13 @@ body {
   }
 
   p {
+    font-size: 1.2vw;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
   }
 
   p.ftxt {
+    
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
