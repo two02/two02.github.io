@@ -101,7 +101,7 @@ body {
   }
   
   li a {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', Light 300;
     display: block;
     color: #757575;
     text-align: center;
@@ -146,18 +146,18 @@ body {
 
   p {
     font-size: 1.2vw;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', Light 300;
     font-weight: 300;
   }
 
   p.ftxt {
     
     text-align: left;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', Light 300;
     text-align: center;
   }  
   h1,h2,h3,h4,h5,h6{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', Light 300;
 }
 div {
   max-width:auto;
