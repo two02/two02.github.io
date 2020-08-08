@@ -24,33 +24,33 @@ body {
   }
   h1.logo {
     color: #6b89fd;
-    font-size: 7.5pt;
+    font-size: 75pt;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logo {
     color: #222222;
-    font-size: 2pt;
+    font-size: 20pt;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h1.logof {
     color: #6b89fd;
-    font-size: 3.0pt;
+    font-size: 30pt;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logof {
     color: #222222;
-    font-size: 1.0pt;
+    font-size: 10pt;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
 
   .slogon {
-    font-size: 1.5pt;
+    font-size: 15pt;
     text-align: center;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -58,11 +58,11 @@ body {
   }
 
   p.slogonp {
-    border-right: solid 0.3pt rgba(0,255,0,.75);
+    border-right: solid 3pt rgba(0,255,0,.75);
     white-space: nowrap;
     overflow: hidden;    
     font-family: 'Ubuntu', sans-serif;  
-    font-size: 1.5pt;
+    font-size: 15pt;
     color: rgba(0, 0, 0, 0.7);
     margin: 0 auto;
   }
@@ -99,7 +99,7 @@ body {
   
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 30vw;}
+    to{width: 300pt;}
   }
   
   /* cursor animations */
@@ -126,7 +126,7 @@ body {
     display: block;
     color: #757575;
     text-align: center;
-    padding: 2.5vw 1.6vw;
+    padding: 25pt 16pt;
     text-decoration: none;
   }
   
@@ -167,7 +167,7 @@ footer > * {
 
  .logof {
   text-align: center;
-  padding-top: 3vw;
+  padding-top: 30pt;
   padding-right: 0vw;
   padding-bottom: 0vw;
   padding-left: 0vw;
@@ -181,7 +181,7 @@ footer > * {
   }
 
   p {
-    font-size: 1.2vw;
+    font-size: 12pt;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
   }
