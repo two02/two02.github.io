@@ -24,33 +24,33 @@ body {
   }
   h1.logo {
     color: #6b89fd;
-    font-size: 7.5vw;
+    font-size: 7.5pt;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logo {
     color: #222222;
-    font-size: 2vw;
+    font-size: 2pt;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h1.logof {
     color: #6b89fd;
-    font-size: 3.0vw;
+    font-size: 3.0pt;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
   h2.logof {
     color: #222222;
-    font-size: 1.0vw;
+    font-size: 1.0pt;
     font-weight: 900;
     font-family: 'Ubuntu', sans-serif;
     display: inline;
   }
 
   .slogon {
-    font-size: 1.5vw;
+    font-size: 1.5pt;
     text-align: center;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -58,11 +58,11 @@ body {
   }
 
   p.slogonp {
-    border-right: solid 0.3vw rgba(0,255,0,.75);
+    border-right: solid 0.3pt rgba(0,255,0,.75);
     white-space: nowrap;
     overflow: hidden;    
     font-family: 'Ubuntu', sans-serif;  
-    font-size: 1.5vw;
+    font-size: 1.5pt;
     color: rgba(0, 0, 0, 0.7);
     margin: 0 auto;
   }
