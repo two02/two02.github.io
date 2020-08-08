@@ -101,7 +101,7 @@ body {
   }
   
   li a {
-    font-family: 'Ubuntu', Light 300;
+    font-family: 'Ubuntu', sans-serif;
     display: block;
     color: #757575;
     text-align: center;
@@ -116,7 +116,7 @@ body {
     color: #08c;
   }
   
-  .footer {
+  /* .footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -127,7 +127,22 @@ body {
     position: relative;
     height: 50px;
     margin-top: -50px;
- }
+ } */
+ footer {
+  color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  justify-content: center;
+  padding-top: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+footer > * {
+  padding: 6px 12px;
+  margin: 0;
+}
 
  .logof {
   text-align: center;
@@ -146,20 +161,20 @@ body {
 
   p {
     font-size: 1.2vw;
-    font-family: 'Ubuntu', Light 300;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
   }
 
   p.ftxt {
     
     text-align: left;
-    font-family: 'Ubuntu', Light 300;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
   }  
   h1,h2,h3,h4,h5,h6{
-  font-family: 'Ubuntu', Light 300;
+  font-family: 'Ubuntu', sans-serif;
 }
-div {
+/* div {
   max-width:auto;
   margin: auto;
 }
@@ -167,11 +182,34 @@ div {
 div.grid {
   max-width:500px;
   margin: auto;
-  /* border: 3px solid #73AD21; */
+  
 }
 
 div.ex2 {
   max-width:500px;
   margin: auto;
-  /* border: 3px solid #73AD21; */
+} */
+
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 32px 0;
+  text-align: center;
+  width: auto;
+}
+
+.grid > * {
+  margin: 16px;
+}
+
+.grid .grid {
+  padding: 0;
+}
+
+.grid .whole {
+  display: block;
+}
+
+.grey {
+  background-color: #fafafa;
 }
