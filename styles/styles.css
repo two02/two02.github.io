@@ -77,14 +77,17 @@ body {
   .element {
     width: 100%;
     height: 100%;
-    animation: pulse 5s infinite;
+    animation: pulse 2s infinite;
   }
   
   @keyframes pulse {
     0% {
       opacity:0;
     }
-    50% {
+    30% {
+      opacity:100;
+    }
+    70% {
       opacity:100;
     }
     100% {
