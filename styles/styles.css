@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
-    background-color: #F5F5F5;
+    background-color: #ffffff;
   }
 
 
@@ -160,12 +160,12 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 div {
-  width:auto;
+  max-width:auto;
   margin: auto;
 }
 
 div.grid {
-  width:500px;
+  max-width:500px;
   margin: auto;
   /* border: 3px solid #73AD21; */
 }
